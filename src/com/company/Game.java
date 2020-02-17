@@ -133,7 +133,7 @@ public class Game {
             System.out.println("Wprowadz rozmiar boku planszy:");
             Scanner sc = new Scanner(System.in);
             size = sc.nextInt();
-
+            
             if (size < 5 || size > 10) {
                 System.out.println("Niepoprawna wartość!, minimalny rozmiar planszy to 5x5, maksymalny 12x12.");
                 sizeSetting();

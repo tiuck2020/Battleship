@@ -10,7 +10,7 @@ sonarcloud-check:
     paths:
       - .sonar/cache
   script:
-    - sonar-scanner
+    - sonar-scanner -x
   only:
     - merge_requests
     - master
